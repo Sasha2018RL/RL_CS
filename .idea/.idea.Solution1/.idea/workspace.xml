@@ -23,27 +23,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="628d0e82-1f2b-4e51-9b7c-35e36de284e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tasks/Helper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/Runner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/Task.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/t0_6.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/t1_6.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/t1_7.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/t2_6.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/t3_6.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/t4_6.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/t5_6.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/tasks.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="628d0e82-1f2b-4e51-9b7c-35e36de284e8" name="Default Changelist" comment="t 1-6">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Solution1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld/bin/Debug/HelloWorld.exe" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld/bin/Debug/HelloWorld.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld/bin/Debug/HelloWorld.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld/bin/Debug/HelloWorld.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld/obj/Debug/HelloWorld.exe" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld/obj/Debug/HelloWorld.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld/obj/Debug/HelloWorld.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld/obj/Debug/HelloWorld.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solution1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Solution1.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/Helper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Helper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/Runner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Runner.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +53,6 @@
         <option value="$PROJECT_DIR$/task1_6/Task.cs" />
         <option value="$PROJECT_DIR$/task1_6/t1.cs" />
         <option value="$PROJECT_DIR$/task1_6/Helper.cs" />
-        <option value="$PROJECT_DIR$/tasks/Helper.cs" />
         <option value="$PROJECT_DIR$/tasks/t1_6.cs" />
         <option value="$PROJECT_DIR$/tasks/Task.cs" />
         <option value="$PROJECT_DIR$/tasks/t2_6.cs" />
@@ -81,6 +63,7 @@
         <option value="$PROJECT_DIR$/tasks/Tasks.cs" />
         <option value="$PROJECT_DIR$/tasks/t1_7.cs" />
         <option value="$PROJECT_DIR$/tasks/Program.cs" />
+        <option value="$PROJECT_DIR$/tasks/Helper.cs" />
         <option value="$PROJECT_DIR$/tasks/Runner.cs" />
       </list>
     </option>
@@ -102,6 +85,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.startup.tasks" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Project.tasks">
@@ -175,8 +159,16 @@
       <updated>1602692378223</updated>
       <workItem from="1602692383746" duration="757000" />
       <workItem from="1602705207579" duration="4227000" />
-      <workItem from="1602739274811" duration="13840000" />
+      <workItem from="1602739274811" duration="15753000" />
     </task>
+    <task id="LOCAL-00001" summary="t 1-6">
+      <created>1602759627303</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602759627303</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +189,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="t 1-6" />
+    <option name="LAST_COMMIT_MESSAGE" value="t 1-6" />
   </component>
   <component name="WindowStateProjectService">
     <state x="838" y="417" key="Github.ShareDialog" timestamp="1602705580627">
@@ -207,22 +201,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="754" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602705594095" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1602758727867">
+    <state width="1877" height="408" key="GridCell.Tab.0.bottom" timestamp="1602761063475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602758727867" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1602758727867">
+    <state width="1877" height="408" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602761063475" />
+    <state width="1877" height="408" key="GridCell.Tab.0.center" timestamp="1602761063475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602758727867" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1602758727867">
+    <state width="1877" height="408" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602761063475" />
+    <state width="1877" height="408" key="GridCell.Tab.0.left" timestamp="1602761063475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602758727867" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1602758727867">
+    <state width="1877" height="408" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602761063475" />
+    <state width="1877" height="408" key="GridCell.Tab.0.right" timestamp="1602761063475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602758727867" />
+    <state width="1877" height="408" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602761063475" />
     <state width="1877" height="375" key="GridCell.Tab.1.bottom" timestamp="1602709248843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -295,5 +289,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="221" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602753363301" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1602760689123">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602760689123" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1602759657922">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602759657922" />
   </component>
 </project>

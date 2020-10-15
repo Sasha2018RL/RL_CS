@@ -11,8 +11,16 @@ namespace tasks
 
         public static int readInt(string prompt)
         {
-            Console.Write(prompt+": ");
-            return parseInt(Console.ReadLine());
+            try
+            {
+                Console.Write(prompt+": "); 
+                return parseInt(Console.ReadLine());
+            }
+            catch (Exception e)
+            {
+                return readInt(prompt);
+            }
+            
         }
     }
 }

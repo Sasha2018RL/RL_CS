@@ -7,15 +7,9 @@ namespace tasks
 {
     public class Runner
     {
-        private int menu; //0 - main
-        private int taskNumber;
-        private int collectionNumber;
 
         public Runner()
         {
-            this.menu = 0;
-            this.taskNumber = 0;
-            this.collectionNumber = 6;
         }
 
         public void mainMenu()
@@ -54,7 +48,68 @@ namespace tasks
             int tn = getThemeNumber(tasks.Keys);
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Blue;
+            runTask(tn, tasks);
 
+        }
+
+        private int getThemeNumber(Dictionary<int, List<Type>>.KeyCollection keys)
+        {
+            int tn;
+            try
+            {
+                tn = Helper.readInt("Номер темы");
+            }
+            catch (Exception e)
+            {
+                return getThemeNumber(keys);
+            }
+            
+            if (keys.Contains(tn)) return tn;
+            return getThemeNumber(keys);
+        }
+
+        private int getTaskNumber(List<Type> tasks)
+        {
+            int taskNumber = Helper.readInt("Номер задания: ");
+            
+            foreach (var task in tasks)
+            {
+                string name = task.Name;
+                name = name.Replace("t", "");
+                if (Convert.ToInt32(name.Split('_')[0]) == taskNumber) return taskNumber;
+            }
+
+            return getTaskNumber(tasks);
+        }
+
+        private void getAction(string className, int tn, Dictionary<int, List<Type>> tasks)
+        {
+            Console.Write("Выберите действие: ");
+            string ans = Console.ReadLine();
+            switch (ans)
+            {
+                case "c":
+                    Process.Start($"https://github.com/Sasha2018RL/RL_CS/blob/master/tasks/t{className}.cs");
+                    getAction(className, tn, tasks);
+                    break;
+                case "l":
+                    runTask(tn, tasks);
+                    break;
+                case "m":
+                    Console.Clear();
+                    mainMenu();
+                    break;
+                case "e":
+                    System.Environment.Exit(0);
+                    break;
+                default:
+                    getAction(className, tn, tasks);
+                    break;
+            }
+        }
+
+        private void runTask(int tn, Dictionary<int, List<Type>> tasks)
+        {
             Console.WriteLine($"**** Выбрана тема {tn} ****");
             Console.ResetColor();
             Console.WriteLine("Выберите номер задания для проверки");
@@ -96,38 +151,8 @@ namespace tasks
             Console.WriteLine("c - просмотреть код задания (откроется в браузере)");
             Console.WriteLine("m - вернуться в главное меню");
             Console.WriteLine("l - вернуться к списку заданий");
-            getAction();
-        }
-
-        private int getThemeNumber(Dictionary<int, List<Type>>.KeyCollection keys)
-        {
-            int tn = Helper.readInt("Номер темы");
-            if (keys.Contains(tn)) return tn;
-            return getThemeNumber(keys);
-        }
-
-        private int getTaskNumber(List<Type> tasks)
-        {
-            int taskNumber = Helper.readInt("Номер задания");
-            foreach (var task in tasks)
-            {
-                string name = task.Name;
-                name = name.Replace("t", "");
-                if (Convert.ToInt32(name.Split('_')[0]) == taskNumber) return taskNumber;
-            }
-
-            return getTaskNumber(tasks);
-        }
-
-        private void getAction()
-        {
-            Console.Write("Выберите один вариант: ");
-            string ans = Console.ReadLine();
-            switch (ans)
-            {
-                case "c":
-                    Process.Start(); 
-            }
+            Console.WriteLine("e - выйти из приложения");
+            getAction($"{taskNumber}_{tn}", tn, tasks);
         }
     }
 }
